@@ -1,4 +1,4 @@
-//  Object Literal Enhacement
+//  Object Literal Enhacement (colcar valores juntos para formar un objeto)
 
 const banda = 'Metallica';
 const genero = 'Heavy Metal';

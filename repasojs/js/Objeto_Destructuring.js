@@ -1,4 +1,4 @@
-// sirve para extraer los valores de un objeto
+// sirve para extraer las propiedades de un objeto
 
 const aprendiendoJS = {
     version: {
@@ -17,14 +17,17 @@ const aprendiendoJS = {
 
 // Destructuring forma nueva
 
-let {version, frameworks} = aprendiendoJS;
+let { version, frameworks } = aprendiendoJS;
 // console.log(version);
 // console.log(frameworks);
 
 // para acceder a las propiedades de un objeto dentro de otro objeto
 
-let {nueva} = aprendiendoJS.version;
+let { nueva } = aprendiendoJS.version;
 console.log(nueva);
 
-let {anterior} = aprendiendoJS.version;
+let { anterior } = aprendiendoJS.version;
 console.log(anterior);
+
+let framework = frameworks[1];
+console.log(framework);

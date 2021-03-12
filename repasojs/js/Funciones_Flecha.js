@@ -1,7 +1,6 @@
 // funciones arrow
 
-
-// cuando toma varios parametros la funcion si utilizamos ()
+// cuando toma varios parametros la funcion, si utilizamos ()
 let viajando = destino => `Viajando a la ciudad de ${destino}`;
 
 
