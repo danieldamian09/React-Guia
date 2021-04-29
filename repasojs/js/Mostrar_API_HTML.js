@@ -59,3 +59,12 @@ function imprimirHTML(usuarios) {
     contenedorApp1.innerHTML = html;
 
 }
+
+
+
+
+
+// Los arrays son objetos similares a una  lista cuyo prototipo proporciona métodos para efectuar operaciones de recorrido y de mutación.
+
+let actividades = ['estudiar', 'correr', 'comer', 'jugar'];
+console.log(actividades);
